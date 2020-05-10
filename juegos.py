@@ -25,7 +25,7 @@ def Guardar_juego(archivo,jugador,juego):
 			Dik.setdefault(jugador,dic_a)#agrego un elemento al diccionario con el jugador, el juego que jugo y la cantidad de veces que lo jugo		
 	with open(archivo,'w') as j:
 		json.dump(Dik,j) #se utiliza esta instruccion para almacenar lo que contiene el diccionario en el archivo TXT
-		print (Dik) #de uso opcional debido a que muestra el diccionario completo		
+		#print (Dik) de uso opcional debido a que muestra el diccionario completo		
 	
 			
 	
